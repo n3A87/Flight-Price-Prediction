@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1296</width>
+    <height>809</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1261</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <widget class="QToolButton" name="SVR">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>400</y>
+       <width>351</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>支持向量回归</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>20</y>
+       <width>761</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CART">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>470</y>
+       <width>351</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>决策树回归</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RF">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>540</y>
+       <width>351</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>随机森林回归</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>620</y>
+       <width>351</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>对比分析</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>441</width>
+       <height>341</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>500</y>
+       <width>761</width>
+       <height>211</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1296</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>开始</string>
+    </property>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
